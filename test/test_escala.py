@@ -120,7 +120,8 @@ CheckIn,29/10/2013,05:08,29/10/2013,05:08,False,"Aeroporto Internacional Viracop
 Voo VCP-FLN AD4050,29/10/2013,16:05,29/10/2013,20:18,False,"Aeroporto Internacional Viracopos",Horas de voo: 4:13\n\
 F,30/10/2013,06:50,30/10/2013,06:50,False,,-\n\
 FA,30/10/2013,06:50,30/10/2013,06:50,False,,-\n\
-SobreAviso,01/11/2013,03:00,01/11/2013,15:00,False,,-\n'
+SobreAviso,01/11/2013,03:00,01/11/2013,15:00,False,,-\n\
+Simulador (S18),30/01/2017,18:00,30/01/2017,22:00,False,"Aeroporto Internacional Viracopos",Horas de voo: 4:00\n'
 
         self.assertEqual(self.escala.csv(), check_output)
 
